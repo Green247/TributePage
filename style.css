@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;}
+
+ 
+  body {
+    font-family: 'Pacifico', cursive;
+    height: 100vh;
+    width: 100vw;
+    background-color: antiquewhite;
+  }
+
+  header {
+    background: rgb(202, 191, 191);
+    font-weight: 900;
+    font-style: italic ;
+    padding: 20px;
+  }
+    
+  .propic{ border: 10px solid #ddd;
+    border-radius: 50px;
+    padding: 10px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+  .aside {
+    display: inline-block;
+    text-align: left;
+    background-color: rgb(218, 208, 208);
+    color: rgb(26, 3, 3);
+    position: relative;
+    float: right;
+  }
+  
+  img {
+      border: 10px solid #ddd;
+      border-radius: 50px;
+      padding: 10px;
+      width: 240px;
+      display: inline-block;
+    }
+  
+ figcaption {
+      font-weight: bold; 
+    }
+    
+  button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 5px 10px;
+      font-size: 18px;
+      border-radius: 10px;
+  }
+  .bio {
+    color: blue;
+  }
+  
+  .footer {
+    color: #4CAF50;
+    background-color: rgb(225, 215, 215);
+  }
+  
+  @media only screen and (min-width: 600px);
+  
+  @media only screen and (min-width: 768px);
+  
+  @media only screen and (min-width: 992px)
